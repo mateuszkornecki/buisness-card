@@ -7,3 +7,31 @@ html {
 *:before {
     box-sizing: inherit;
 }
+
+body {
+    background-color: #2C2141;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.person__picture {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card {
+    max-width: 624px;
+    width: 100%;
+    background-color: white;
+    padding: 32px;
+}
