@@ -18,6 +18,20 @@ body {
     padding: 16px;
 }
 
+.card {
+    max-width: 624px;
+    width: 100%;
+    background-color: #F8F8F8;
+    padding: 32px;
+    border-radius: 32px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
 .person {
     display: flex;
     align-items: center;
@@ -31,8 +45,12 @@ body {
 }
 
 .person__description--orange {
-    color: #ED6D05;
+    /*color: #ED6D05;*/
     font-weight: normal;
+    background-color: #ffbf3b;
+    background-image: linear-gradient(75deg, #ffbf3b 0%, #FF2525 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .person__description--link {
@@ -48,6 +66,7 @@ body {
 .person__link {
     text-decoration: none;
     color: #E20613;
+    font-weight: bold;
 }
 
 .person__title {
@@ -63,17 +82,4 @@ body {
     font-family: arial;
 }
 
-.container {
-    margin: 0;
-    padding: 0;
-}
-
-.card {
-    max-width: 624px;
-    width: 100%;
-    background-color: #F8F8F8;
-    padding: 32px;
-    border-radius: 32px;
-    display: flex;
-    align-items: flex-start;
-}
+S
