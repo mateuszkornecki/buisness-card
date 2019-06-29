@@ -22,8 +22,6 @@ body {
 .card {
     max-width: 624px;
     width: 100%;
-    max-height: 320px;
-    height: 100%;
     background-color: #F8F8F8;
     padding: 32px;
     border-radius: 32px;
@@ -36,15 +34,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
 }
 
 .person {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    height: 100%;
-    flex-shrink: 1;
 }
 
 .person__description {
@@ -71,8 +66,8 @@ body {
 
 .person__picture {
     margin-right: 32px;
-    display: flex;
     align-self: flex-start;
+    flex-shrink: 1;
 }
 
 .person__link {
